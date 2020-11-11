@@ -10,7 +10,7 @@ reverse_each_word("Hello there, and how are you?")
 def collect(string)
   array = string.split(" ")
   array.collect(&:reverse)
-  end
+end 
   array.join(" ")
-end
-collect("Hello there, and how are you?")
+end 
+collect("Verifying that collect is being called.")
