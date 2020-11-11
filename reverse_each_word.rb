@@ -6,3 +6,11 @@ def reverse_each_word(string)
   array.join(" ")
 end
 reverse_each_word("Hello there, and how are you?")
+
+def collect(string)
+  array = string.split(" ")
+  array.collect(&:reverse)
+  end
+  array.join(" ")
+end
+collect("Hello there, and how are you?")
