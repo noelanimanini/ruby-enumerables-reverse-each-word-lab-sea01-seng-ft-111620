@@ -2,7 +2,7 @@
    string = string.split("")
    reversed = []
    string.each do |i|
-   reversed.unshift(i)
+   reversed_each_word.unshift(i)
   return reverse_each_word.join(“”)
 end
  end
