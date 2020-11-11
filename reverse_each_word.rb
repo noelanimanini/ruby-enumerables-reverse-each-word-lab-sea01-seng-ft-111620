@@ -3,6 +3,5 @@
    string.split("").each do |l|
      reversed_sentence1 << l
    end
-   print reversed_sentence1.join
-
+   p reversed_sentence1.join
  end
