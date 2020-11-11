@@ -12,5 +12,5 @@ def collect(string)
   array.collect(&:reverse)
 end 
   array.join(" ")
-end 
+end
 collect("Verifying that collect is being called.")
